@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+Hello G25
+
+<table>
+  <thead>
+    <td>Host</td>
+    <td>Parasite</td>
+  </thead>
+  {{#each rows as |row|}}
+  <tr>
+    <td>{{row.Host}}</td>
+    <td>{{row.Parasite}}</td>
+  </tr>
+  {{/each}}
+</table>
